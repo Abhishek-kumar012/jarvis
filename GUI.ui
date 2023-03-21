@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1890</width>
+    <height>925</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="BG_1">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>-10</y>
+      <width>1021</width>
+      <height>751</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../JarvisGUI/G.U.I Material/B.G/Iron_Template_2.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GIF_1">
+    <property name="geometry">
+     <rect>
+      <x>-110</x>
+      <y>0</y>
+      <width>1601</width>
+      <height>741</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../JarvisGUI/G.U.I Material/B.G/Iron_Template_1.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="GIF_2">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>-10</y>
+      <width>481</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../JarvisGUI/G.U.I Material/ExtraGui/Earth.gif</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_Start">
+    <property name="geometry">
+     <rect>
+      <x>1660</x>
+      <y>680</y>
+      <width>231</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_close">
+    <property name="geometry">
+     <rect>
+      <x>1660</x>
+      <y>800</y>
+      <width>231</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BG_2">
+    <property name="geometry">
+     <rect>
+      <x>1670</x>
+      <y>690</y>
+      <width>211</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../JarvisGUI/G.U.I Material/Buttons/Start.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="BG_3">
+    <property name="geometry">
+     <rect>
+      <x>1670</x>
+      <y>820</y>
+      <width>211</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../JarvisGUI/G.U.I Material/Buttons/Quit.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser_Time">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>231</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+font: 75 28pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(170, 0, 0);</string>
+    </property>
+   </widget>
+   <zorder>pushButton_close</zorder>
+   <zorder>BG_3</zorder>
+   <zorder>pushButton_Start</zorder>
+   <zorder>BG_1</zorder>
+   <zorder>GIF_1</zorder>
+   <zorder>GIF_2</zorder>
+   <zorder>BG_2</zorder>
+   <zorder>textBrowser_Time</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
