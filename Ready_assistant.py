@@ -391,7 +391,7 @@ class MainThread(QThread):
         import numpy as np
         try:
             self.talk(f"Boss openinging mobile camera")
-            URL = "http://192.168.248.220:8080/shot.jpg" 
+            URL = "Your_url/shot.jpg" 
             while True:
                 imag_arr = np.array(bytearray(urllib.request.urlopen(URL).read()),dtype=np.uint8)
                 img = cv2.imdecode(imag_arr,-1)
